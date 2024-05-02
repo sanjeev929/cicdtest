@@ -37,6 +37,5 @@ jobs:
           script: |
             cd /home/ubuntu/cicdtest
             git pull
-            sudo pip install -r requirements.txt
             sudo systemctl daemon-reload
             sudo systemctl restart mydjango.service
